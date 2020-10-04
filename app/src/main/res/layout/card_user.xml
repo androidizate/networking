@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
@@ -22,19 +22,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/id_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="ID: " />
+                android:text="ID: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
-                android:id="@+id/id"
+                android:id="@+id/id_user"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#5d5d5d" />
@@ -44,16 +44,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/name_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="NAME: " />
+                android:text="NAME: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/name"
@@ -66,16 +66,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/username_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="USERNAME: " />
+                android:text="USERNAME: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/username"
@@ -88,16 +88,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/email_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="EMAIL: " />
+                android:text="EMAIL: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/email"
@@ -112,22 +112,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Address"
-            android:textStyle="bold"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/street_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="STREET: " />
+                android:text="STREET: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/street"
@@ -140,16 +140,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/suite_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="SUITE: " />
+                android:text="SUITE: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/suite"
@@ -162,16 +162,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/city_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="CITY: " />
+                android:text="CITY: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/city"
@@ -184,16 +184,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/zipcode_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="ZIPCODE: " />
+                android:text="ZIPCODE: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/zipcode"
@@ -214,16 +214,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/lat_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="LATITUDE: " />
+                android:text="LATITUDE: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/lat"
@@ -236,16 +236,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/lng_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="LONGITUDE: " />
+                android:text="LONGITUDE: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/lng"
@@ -258,16 +258,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/phone_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="PHONE: " />
+                android:text="PHONE: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/phone"
@@ -280,16 +280,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/website_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="WEBSITE: " />
+                android:text="WEBSITE: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/website"
@@ -310,16 +310,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/companyName_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="COMPANY NAME: " />
+                android:text="COMPANY NAME: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/companyName"
@@ -332,16 +332,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/catchPhrase_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="CATCH PHRASE: " />
+                android:text="CATCH PHRASE: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/catchPhrase"
@@ -354,16 +354,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="4dp">
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/bs_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="@color/colorPrimary"
-                android:text="BS: " />
+                android:text="BS: "
+                android:textColor="@color/colorPrimary" />
 
             <TextView
                 android:id="@+id/bs"
@@ -374,4 +374,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>
